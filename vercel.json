@@ -1,0 +1,6 @@
+{
+  "rewrites": [{ "source": "/((?!api/).*)", "destination": "/index.html" }],
+  "functions": {
+    "api/stripe-webhook.js": { "memory": 256 }
+  }
+}
